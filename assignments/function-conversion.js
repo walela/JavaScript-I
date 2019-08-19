@@ -39,3 +39,7 @@ console.log(substract(20, 9));
 //   return num * 3;
 // });
 // console.log(triple);
+
+let primes = [1, 3, 5, 7, 11];
+const triple = primes.map(n => n * 3);
+console.log(triple);
